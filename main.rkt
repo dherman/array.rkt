@@ -5,9 +5,10 @@
 (provide (rename-out [array* array])
          build-array
          array-ref array-set
+         array-for-each
          array-length array->list)
 
-;; TODO: array-for-each, array-map, array-foldl, array-foldr
+;; TODO: array-map, array-foldl, array-foldr
 ;; TODO: array, list->array
 
 ;; (data a)
@@ -76,3 +77,6 @@
 
 (define (array->list t)
   (impure vector->list t))
+
+(define (array-for-each f t)
+  (impure (lambda (d) (vector-for-each d f)) t))
