@@ -2,7 +2,7 @@
 
 An efficient functional array, based on
 [Jean-Christophe Filliâtre](http://www.lri.fr/~filliatr/puf/)'s
-[http://www.lri.fr/~filliatr/ftp/ocaml/ds/parray.ml.html](parray) data structure
+[parray](http://www.lri.fr/~filliatr/ftp/ocaml/ds/parray.ml.html) data structure
 from [ML Workshop 2007](http://www.lri.fr/~filliatr/ftp/publis/puf-wml07.ps).
 
 ## License
